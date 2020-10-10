@@ -59,7 +59,7 @@ namespace NasaApi.Controllers
                     GetNasaPhotos(outDate.ToString("yyyy-MM-dd"));
             }
 
-            return Ok();
+            return Content("Downloaded Sucessfully");
         }      
 
         // Get Photos with specific date
